@@ -27,9 +27,9 @@ export default defineConfig({
           items: [
             { text: 'Overlay', link: `${svw}manual/overlay` },
             { text: 'Saved Settings', link: `${svw}manual/saved-settings` },
+            { text: 'Isolate Auto-Switch Rules', link: `${svw}manual/isolate-rules` },
             { text: 'Built-in Presets', link: `${svw}manual/presets` },
             { text: 'Export / Import', link: `${svw}manual/export-import` },
-            { text: 'Isolate Auto-Switch Rules', link: `${svw}manual/isolate-rules` },
             { text: 'Settings & Data Storage', link: `${svw}manual/settings` }
           ]
         },
