@@ -8,7 +8,6 @@ export default defineConfig({
   title: 'TK-Gizmo Lab',
   description: 'Support and manuals for Unity Editor extensions by TK-Gizmo Lab.',
   cleanUrls: true,
-  lastUpdated: true,
 
   themeConfig: {
     // Shown top-left on pages outside any asset; asset pages override it in NavBarTitle.vue.

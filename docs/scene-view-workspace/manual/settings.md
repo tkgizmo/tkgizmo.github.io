@@ -10,7 +10,6 @@
 
 Workspaces, rules, and the active Workspace selection are saved in your project's `UserSettings/SceneViewWorkspace/` folder.
 
-- These are personal, per-user settings. Deleting the `Library` folder does not remove them.
 - The active selection includes the Scene View state from just before you first applied a Workspace. **No Workspace** uses it to return you to that state.
 - To share Workspaces or rules with others, use [Export / Import](./export-import).
 
