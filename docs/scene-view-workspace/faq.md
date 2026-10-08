@@ -1,3 +1,7 @@
+---
+outline: [2, 3]
+---
+
 # FAQ
 
 ## Before You Buy
@@ -8,7 +12,7 @@ No. Import the package, and the overlay and five [built-in presets](./manual/pre
 
 ### Is it beginner friendly?
 
-Yes. The built-in presets work out of the box, and regex-based [auto-switch rules](./manual/isolate-rules) are there when you want more control.
+Yes. The built-in presets work right after import, so you can start without any setup. When you are ready, you can add [rules](./manual/isolate-rules) that switch Workspaces for you.
 
 ### Does it change my Scenes or show up in Git diffs?
 
@@ -20,7 +24,7 @@ No. It has no external dependencies and is an Editor-only assembly, so it is nev
 
 ### Which Unity versions are supported?
 
-Unity 2022.3 and all Unity 6 versions. Snapping settings differ between these versions, and a Workspace saves whichever ones your Editor provides, so the same Workspace file loads correctly in both.
+Unity 2022.3 and all Unity 6 versions. Some settings differ between the two, but this is handled for you, so the same Workspace works in both.
 
 ### Can I use it with multiple Scene Views?
 
