@@ -28,7 +28,7 @@ Unity 2022.3 and all Unity 6 versions. Some settings differ between the two, but
 
 ### Can I use it with multiple Scene Views?
 
-It works, but a Workspace belongs to the Editor rather than to one Scene View. Per-view settings, such as the viewpoint, draw mode, and lighting, apply to the Scene View you switched from. Editor-wide settings, such as tools, snapping, and the Gizmos window, change everywhere. The selected Workspace is shared too, so the view you did not switch from will not match its label.
+Yes, with some caveats. A Workspace belongs to the Editor rather than to one Scene View, so some settings apply only to the Scene View you used last while others change everywhere. See [Limitations](./limitations#multiple-scene-views) for details.
 
 ## Using Scene View Workspace
 
