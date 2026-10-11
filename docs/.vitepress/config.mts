@@ -36,7 +36,8 @@ export default defineConfig({
         { text: 'Limitations', link: `${svw}limitations` },
         { text: 'FAQ', link: `${svw}faq` },
         { text: 'Changelog', link: `${svw}changelog` },
-        { text: 'Support', link: `${svw}support` }
+        { text: 'Support', link: `${svw}support` },
+        { text: 'Asset Store', link: 'https://assetstore.unity.com/packages/slug/393068' }
       ]
     },
 

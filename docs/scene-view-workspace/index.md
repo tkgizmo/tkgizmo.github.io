@@ -2,6 +2,8 @@
 
 Scene View Workspace is a Unity Editor extension that saves your entire Scene View setup as a **Workspace** and restores it in one click. Keep a Workspace for each task, such as UI work, modeling, lighting checks, or screenshots, and stop toggling lighting, Gizmos, draw mode, and snapping by hand.
 
+Available on the [Unity Asset Store](https://assetstore.unity.com/packages/slug/393068).
+
 ![The Scene View Workspace overlay with the Workspace dropdown open](/scene-view-workspace/SceneViewOverlay1.png)
 
 ## Quick Start
