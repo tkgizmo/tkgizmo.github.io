@@ -20,10 +20,6 @@ export default defineConfig({
     // Shown top-left on pages outside any asset; asset pages override it in NavBarTitle.vue.
     siteTitle: 'TK-Gizmo Lab',
 
-    nav: [
-      { text: 'TK-Gizmo Lab', link: '/' }
-    ],
-
     // Keyed by path prefix so each asset gets its own sidebar.
     sidebar: {
       [svw]: [
