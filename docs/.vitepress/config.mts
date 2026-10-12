@@ -8,6 +8,13 @@ export default defineConfig({
   title: 'TK-Gizmo Lab',
   description: 'Support and manuals for Unity Editor extensions by TK-Gizmo Lab.',
   cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    // Brand font for the home page name, matching the original TK-Gizmo Lab site.
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap' }]
+  ],
 
   themeConfig: {
     // Shown top-left on pages outside any asset; asset pages override it in NavBarTitle.vue.

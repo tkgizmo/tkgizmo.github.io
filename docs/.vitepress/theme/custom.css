@@ -5,6 +5,64 @@
   --vp-c-brand-soft: rgba(48, 155, 225, 0.14);
 }
 
+/* The logo has a white background, so crop it to its circle to blend into both themes. */
+.VPHero .image-src {
+  border-radius: 50%;
+}
+
+/* The default 320px logo is taller than the hero text and overlaps the nav bar. */
+@media (min-width: 960px) {
+  .VPHero .image-src {
+    max-width: 240px;
+    max-height: 240px;
+  }
+}
+
+.VPHero .main .name {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+/* Sized between the name and the tagline so the catchphrase reads as a subtitle. */
+.VPHero .main .text {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+@media (min-width: 640px) {
+  .VPHero .main .text {
+    font-size: 29px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero .main .text {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+/* Align the markdown sections below the home features with the feature cards. */
+.home-section {
+  max-width: 1152px;
+  margin: 48px auto 64px;
+  padding: 0 24px;
+}
+
+@media (min-width: 640px) {
+  .home-section {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width: 960px) {
+  .home-section {
+    padding: 0 64px;
+  }
+}
+
 .dark {
   /* Lighter shades keep links readable on the dark background. */
   --vp-c-brand-1: #5cb3ea;
