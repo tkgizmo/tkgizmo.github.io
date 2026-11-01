@@ -32,6 +32,10 @@ Yes, with some caveats. A Workspace belongs to the Editor rather than to one Sce
 
 ## Using Scene View Workspace
 
+### Can I switch settings without moving the camera?
+
+Yes. Turn off [Apply Camera Pose](./manual/settings#apply-camera-pose) for that Workspace on the **Workspaces** tab of the Workspace Settings window, or uncheck it when you choose **Save → Save New**. The built-in presets start with it off.
+
 ### How do I move my Workspaces to another project?
 
 Workspaces are saved per project, so a new project starts with only the built-in presets. Use [Export / Import](./manual/export-import) to bring them over:

@@ -13,4 +13,4 @@ It can also switch Workspaces automatically, based on the target object, when yo
 | [Isolate Auto-Switch Rules](./isolate-rules) | Applying a Workspace automatically when entering Isolation view |
 | [Built-in Presets](./presets) | The five Workspaces created on first import |
 | [Export / Import](./export-import) | Backing up and sharing Workspaces and rules as JSON |
-| [Settings & Data Storage](./settings) | Options, and where your data is saved |
+| [Settings Window & Data Storage](./settings) | Managing Workspaces, options, and where your data is saved |

@@ -4,11 +4,15 @@ When you enter Isolation view (select a GameObject in the Hierarchy and press <k
 
 ## How to Configure
 
-Open the Workspace Settings window from the settings button (⚙) on the [overlay](./overlay), or from **Window → TKGizmoLab → Scene View Workspace Settings**. Add, reorder, and edit rules in the **Isolate Auto-Switch Rules** section.
+Open the Workspace Settings window from the settings button (⚙) on the [overlay](./overlay), or from **Window → TKGizmoLab → Scene View Workspace Settings**. Add, reorder, and edit rules on the **Rules** tab.
 
 For each rule, select the Workspace to switch to when its conditions match.
 
-![A rule in the Isolate Auto-Switch Rules section](/scene-view-workspace/SettingsWindow1.png)
+![A rule on the Rules tab](/scene-view-workspace/SettingsWindow1.png)
+
+::: tip
+Turn off [Apply Camera Pose](./settings#apply-camera-pose) for the Workspaces your rules switch to, so the view stays on the isolated object.
+:::
 
 Press **+ Add Condition** to add a condition.
 

@@ -5,7 +5,8 @@ A Workspace records the following Scene View states.
 ## Camera / View
 
 - 2D / 3D mode, orthographic / perspective projection
-- Pivot position, rotation, size (zoom), rotation lock
+- Pivot position, rotation, size (zoom) — restored only while the Workspace's [Apply Camera Pose](./settings#apply-camera-pose) option is on
+- Rotation lock
 - FOV, Near / Far clip, Dynamic Clip, Occlusion Culling
 - Camera movement speed (min / max / acceleration / easing)
 

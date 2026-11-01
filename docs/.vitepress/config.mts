@@ -33,7 +33,7 @@ export default defineConfig({
             { text: 'Isolate Auto-Switch Rules', link: `${svw}manual/isolate-rules` },
             { text: 'Built-in Presets', link: `${svw}manual/presets` },
             { text: 'Export / Import', link: `${svw}manual/export-import` },
-            { text: 'Settings & Data Storage', link: `${svw}manual/settings` }
+            { text: 'Settings Window & Data Storage', link: `${svw}manual/settings` }
           ]
         },
         { text: 'Limitations', link: `${svw}limitations` },

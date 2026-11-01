@@ -17,7 +17,7 @@ Switching Workspaces cannot be undone with <kbd>Ctrl</kbd> + <kbd>Z</kbd>. To go
 
 ## Camera Position
 
-The camera pivot is saved as a world-space position, so it is meaningful in the Scene where you saved it. Applying the Workspace in another Scene or in Prefab Mode moves the camera to the same coordinates.
+The camera pivot is saved as a world-space position, so it is meaningful in the Scene where you saved it. Applying the Workspace in another Scene or in Prefab Mode moves the camera to the same coordinates. To switch settings without moving the camera, turn off the Workspace's [Apply Camera Pose](./manual/settings#apply-camera-pose) option.
 
 ## Multiple Scene Views
 
@@ -27,13 +27,14 @@ A Workspace belongs to the Editor rather than to one Scene View.
 - **Editor-wide settings**, such as tools, snapping, and the Gizmos window, change in every Scene View.
 - **The selected Workspace is shared**, so the overlay in the other Scene Views shows a Workspace their view does not match.
 - **Selecting the Workspace that is already selected does nothing**, even from another Scene View. To apply it there, switch to a different Workspace first.
+- **Save New and Reset in the Workspace Settings window** use the Scene View you focused last.
 
 ## Isolate Auto-Switch
 
 - **If no rule matches**, the Workspace does not change, and nothing is restored when you exit Isolation view.
 - **If you isolate several objects at once**, the objects are checked one at a time, and the first object that matches any rule decides the Workspace.
 - **If you switch Workspaces by hand while in Isolation view**, exiting Isolation view still returns you to the view you had before entering it.
-- **If a rule's target Workspace has been deleted**, that rule does nothing.
+- **If a rule's target Workspace has been deleted**, that rule does nothing. Renaming a Workspace in the Workspace Settings window updates the rules that target it.
 
 ## Prefab Mode
 

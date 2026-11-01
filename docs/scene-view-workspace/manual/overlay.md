@@ -28,6 +28,7 @@ The overlay has three controls.
 
 1. Set up the Scene View the way you want it (camera, draw mode, tools, and so on).
 2. Choose **Save → Save New** in the overlay and give the Workspace a name.
+   Uncheck **Apply camera pose** if the Workspace should only switch settings and leave the camera where it is. See [Apply Camera Pose](./settings#apply-camera-pose).
 3. To update the selected Workspace with the current state, choose **Save → Overwrite**.
 
 ![Save dropdown with Save New and Overwrite](/scene-view-workspace/SceneViewOverlay2.png)
@@ -35,6 +36,8 @@ The overlay has three controls.
 ## Switching Workspaces
 
 Saved Workspaces are listed in the Workspace dropdown. Selecting one applies the Scene View state it saved to the current view.
+
+The dropdown lists Workspaces in the order of the **Workspaces** tab in the [Workspace Settings window](./settings#workspaces-tab). Drag rows there to reorder them. Renaming, deleting, and exporting Workspaces are also done in that tab.
 
 Selecting **No Workspace** deselects the Workspace and returns the Scene View to the state it was in before you first selected a Workspace.
 

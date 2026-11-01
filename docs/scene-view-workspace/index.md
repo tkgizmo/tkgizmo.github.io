@@ -18,7 +18,7 @@ That's all you need to get started. To have a Workspace apply itself when you en
 ## What It Does
 
 - **One-click switching** — Change your whole Scene View setup from a dropdown right inside the Scene View.
-- **Saves the camera too** — A Workspace remembers the viewpoint as well as the display settings, so it also works as a camera bookmark. See [Saved Settings](./manual/saved-settings).
+- **Saves the camera too** — A Workspace remembers the viewpoint as well as the display settings, so it also works as a camera bookmark. Turn off [Apply Camera Pose](./manual/settings#apply-camera-pose) for a Workspace to switch only its settings and keep the camera where it is. See [Saved Settings](./manual/saved-settings).
 - **Auto-switch on Isolation** — Enter Isolation view (<kbd>Shift</kbd> + <kbd>H</kbd>) and the Workspace that matches the object's name, tag, or layer is applied. Your previous view returns when you exit.
 - **Non-destructive** — Only Editor-side Scene View state changes. Your Scenes and assets are never modified.
 - **Ready-to-use presets** — Five [built-in presets](./manual/presets) work the moment you import.
